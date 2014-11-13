@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="GlobalController">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <title ng-bind="Page.title()"></title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body class="no-select">
+    <div class="page-wrap">
+        @Html.Partial("_Header")
+        <div id="contentBody">
+            @RenderBody()
+        </div>
+
+    </div>
+    <footer></footer>
+
+</body>
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/script")
+@RenderSection("scripts", required: false)
+
+</html>
