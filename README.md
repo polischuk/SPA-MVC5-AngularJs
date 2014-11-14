@@ -1,7 +1,7 @@
 SPA-MVC5-AngularJs
 ==================
 
-The MVC5 SPA Template Adapted for Angular
+The ASP .NEt MVC5 SPA Template Adapted for Angularjs
 Using technologies:
        <ul>
             <li>MVC5</li>
