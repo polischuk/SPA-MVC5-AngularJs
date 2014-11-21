@@ -13,6 +13,7 @@ namespace MyApp.web.Controllers
         }
         public ActionResult Index()
         {
+           
           
             return View();
         }

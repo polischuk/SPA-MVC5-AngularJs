@@ -1,9 +1,10 @@
 ﻿var app = angular.module('app', ['ngRoute']);
 app.controller('GlobalController', GlobalController);
 app.controller('HomeController', HomeController);
-app.controller('ContactsController', ContactsController);
+app.controller('LoginController', LoginController);
 
 app.factory('HomeFactory', HomeFactory);
+app.factory('LoginFactory', LoginFactory);
 app.factory('Page', function () {
     var title = 'Angular + MVC5';
     return {
@@ -22,9 +23,9 @@ var configFunction = function ($routeProvider, $httpProvider, $locationProvider)
             templateUrl: '/templates/home/index.html',
             controller: HomeController
         })
-     .when('/contacts', {
-         templateUrl: '/templates/contacts/index.html',
-         controller: ContactsController
+     .when('/login', {
+         templateUrl: '/templates/login/index.html',
+         controller: LoginController
      })
     ;
 

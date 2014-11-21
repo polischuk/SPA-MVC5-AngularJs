@@ -61,7 +61,7 @@ namespace MyApp.data
                 new ApplicationUser
                     {
                         UserName = "admin",
-                        Email = "admin@radacode.com",
+                        Email = "admin@test.com",
                         EmailConfirmed = true
                     }
             };

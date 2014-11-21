@@ -10,7 +10,7 @@ namespace MyApp.web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             routes.MapRoute(
                 name: "contacts SPA",
-                url: "Contacts/{*catchall}",
+                url: "login/{*catchall}",
                 defaults: new { controller = "Home", action = "Index" }
             );
             routes.MapRoute(

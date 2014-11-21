@@ -1,4 +1,8 @@
-﻿<div class="jumbotron">
+﻿<div ng-show="IsAuthorize">
+    <h1>You are logged in as:&nbsp;<span>{{User.UserName}}</span></h1>
+    <a href="#" ng-click="LogOff()">LogOff</a>
+</div>
+<div class="jumbotron">
     <p>The MVC5 SPA Template Adapted for Angular</p>
     <p>Using technologies:
         <ul>
