@@ -10,4 +10,9 @@ Using technologies:
             <li>Entity Framework</li>
             <li>Ninject</li>
         </ul>
-  
+
+Features:
+==================
+ <ul>
+            <li>async login / logOff  MVC + angular</li>
+        </ul>
