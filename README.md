@@ -15,4 +15,5 @@ Features:
 ==================
  <ul>
             <li>async login / logOff  MVC + angular</li>
+                     <li>HTML5 SPA application</li>
         </ul>
