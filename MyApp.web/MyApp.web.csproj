@@ -201,7 +201,6 @@
     <Compile Include="Areas\SuperUser\FileHandler\Handler.ashx.cs">
       <DependentUpon>Handler.ashx</DependentUpon>
     </Compile>
-    <Compile Include="Areas\SuperUser\Controllers\AccountAdminController.cs" />
     <Compile Include="Areas\SuperUser\SuperUserAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -277,6 +276,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\SuperUser\Controllers\" />
     <Folder Include="Areas\SuperUser\Models\" />
     <Folder Include="Areas\SuperUser\Views\Account\" />
     <Folder Include="Areas\SuperUser\Views\Shared\" />
